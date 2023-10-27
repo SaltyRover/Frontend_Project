@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Project</title>
+    <link rel="stylesheet" href="web.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+     crossorigin="anonymous">
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+      crossorigin="anonymous"></script>
+
+</head>
+<!-- <body>
+
+<div id="E-shop_container">
+    <h1 class="E-shop">E-shop</h1>
+    <h1 class="E-shop">Menu</h1>
+    <h1 class="E-shop">About Us</h1>
+    <h1 class="E-shop">Contact</h1>     
+</div> -->
+
+<div class="database-header">
+    <h2>DATABASE OF PROFILES</h2>
+    <p> The data below shows profiles of Job Applicants</p>
+</div>
+
+<div class="database-container">
+    <table class="table-container">
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>Usernames</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Status</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rio</td>
+                <td>rio@gmail.com</td>
+                <td>Rio Street</td>
+                <td>Employed</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Bolu</td>
+                <td>bolu@gmail.com</td>
+                <td>Bolu Street</td>
+                <td>Unemployed</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Destiny</td>
+                <td>dd@gmail.com</td>
+                <td>Kagini</td>
+                <td>Employed</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Will</td>
+                <td>will@gmail.com</td>
+                <td>California</td>
+                <td>Employed</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Smith</td>
+                <td>Smith@gmail.com</td>
+                <td>Texas</td>
+                <td>Unemployed</td>
+            </tr>
+
+    
+</tbody>
+
+
+</table>
+</div>
+<div class="container">
+<div class="form-container">
+    <div class="form-header">
+        <h1>Job Applicant Form</h1>
+    </div>
+    <form action="">
+        <div class="form-field">
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter Username..." />
+         </div>
+         
+         <div class="form-field">
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter Email..." />
+        </div>
+        <div class="form-field">
+            <label for="address">Address</label>
+            <input type="text" placeholder="Enter Address..." />
+        </div>
+        <div class="form-field">
+             <label for="status">Status</label>
+             <input type="text" placeholder="What is your status..." />
+        </div>
+      
+       <div class="form-field">
+        <label for="country">Country</label>
+            <select name="country">
+                <option value="Nigeria">Nigeria</option>
+                <option value="USA">USA</option>
+                <option value="China">China</option>
+            </select>
+        </div>
+        <div>
+            <label for="description">Description</label>
+            <textarea  placeholder= "Describe yourself..." cols="40" rows="10">   </textarea>
+        </div>
+        <div id="submit-button">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+
+<div>
+    <div class="form-container2">
+    <div class="form-header">
+        <h1>Database Management Employees Form</h1>
+    </div>
+    <form action="">
+
+    <div class="form-field">
+        <label for="firstname">Firstname</label>
+        <input type="text" placeholder="Enter Firstname..." />
+    </div>
+
+    <div class="form-field">
+        <label for="lastname">Lastname</label>
+        <input type="text" placeholder="Enter Lastname..." />
+    </div>
+
+    <div class="form-field">
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter Email..." />
+    </div>
+
+    <div>
+        <p>Please select your gender</p>
+        <input type="radio" name="sex" value="Male" />
+        <label for="male">Male</label>
+        <input type="radio" name="sex" value="Female" />
+        <label for="female">Female</label>
+    </div>
+
+    <div class="date-selector">
+        <label for="date_employed">Date Employed</label>
+        <input type="date" name="date_employed">
+    </div>
+
+    <div class="form-field">
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter Password..." />
+    </div>
+
+    <div class="form-field">
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" placeholder="Confirm Password..." />
+    </div>
+    <div id="submit-button">
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</div>
+</div>
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
